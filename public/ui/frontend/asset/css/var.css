@@ -1,0 +1,23 @@
+:root {
+    --baseFont: 18px;
+    --baseColor: #272727;
+    --FontWeight_400: 400;
+    --FontWeight_500: 500;
+    --FontWeight_600: 600;
+    --FontWeight_700: 700;
+
+
+    /* Background Color */
+    --background_Color: #F0F0F0 !important;
+    --background_Color1: #FEFBE9 !important;
+}
+
+.font {
+    font-size: var(--baseFont);
+    color: var(--baseColor);
+    font-weight: var(--FontWeight_400);
+}
+
+.bg {
+    background-color: #FEFBE9;
+}
